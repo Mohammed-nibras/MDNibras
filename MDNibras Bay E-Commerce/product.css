@@ -1,0 +1,59 @@
+#products {
+    display: flex;
+}
+
+#topmenu>span {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#collection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+#collection>div {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.avatar {
+    margin-top: 12px;
+    height: 360px;
+    width: 327px;
+}
+
+.innerbox {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+}
+
+.brand {
+    margin-left: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.names {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.8;
+    margin-left: 14px;
+}
+
+.price1 {
+    margin-left: 14px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.price2 {
+    margin-left: 10px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: line-through;
+    font-size: 16px;
+}
