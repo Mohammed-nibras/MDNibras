@@ -1,0 +1,90 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#outerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#innerbox {
+    display: flex;
+    background-color: white;
+    width: 52%;
+    height: 500px;
+}
+
+.leftinnerbox {
+    background-color: #2874f0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.rightinnerbox {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile {
+    width: 85%;
+    height: 30px;
+    margin-top: 15px;
+    border-color: #2874f0;
+    border-width: 0 0 2px;
+    outline: 0;
+}
+
+.mobile:focus {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black
+}
+
+.name {
+    width: 85%;
+    height: 30px;
+    margin-top: 0px;
+    border-color: #2874f0;
+    border-width: 0 0 2px;
+    outline: 0;
+}
+
+.name:focus {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black
+}
+
+.password {
+    width: 85%;
+    height: 30px;
+    margin-top: 0px;
+    border-color: #2874f0;
+    border-width: 0 0 2px;
+    outline: 0;
+}
+
+.password:focus {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black
+}
+
+.textm {
+    font-size: 15px;
+    align-self: center;
+    width: 80%;
+    padding-top: 25px;
+}
+
+.continue:hover {
+    cursor: pointer;
+}
+
+.exist:hover {
+    cursor: pointer;
+}
